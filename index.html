@@ -48,25 +48,25 @@
                       <div  class="form-row">
                         <div class="form-group col-md-6">
                           <label for="inputFname">FirstName</label>
-                          <input type="FirstName"  class="form-control"  id="inputFname" placeholder="FirstName" required title="Please Enter Your First Name">
+                          <input type="text"  class="form-control"  id="inputFname" placeholder="FirstName" required title="Please Enter Your First Name">
                           <span id="text"></span>
                         </div>
                         <div class="form-group col-md-6">
                           <label for="inputLname">LastName</label>
-                          <input type="LastName" class="form-control" id="inputLname"  required title="Please Enter Your Last Name" placeholder="LastName">
+                          <input type="text" class="form-control" id="inputLname"  required title="Please Enter Your Last Name" placeholder="LastName">
                       <span id='Lname'></span>
       
                         </div>
                       </div>
                       <div class="form-group">
                         <label for="inputAddress">Email</label>
-                        <input type="text" class="form-control" id="inputAddress"   required title="Please Enter Your Email" placeholder="xxxxx@.gmail">
+                        <input type="text" class="form-control" id="inputEmail"   required title="Please Enter Your Email" placeholder="xxxxx@.gmail">
                         <span id='email'></span>
       
                       </div>
                       <div class="form-group">
                         <label for="inputAddress">Address </label>
-                        <input type="text" class="form-control" id="inputAddress"  required title="Please Enter Your Address"placeholder="Apartment, studio, or floor">
+                        <input type="text" class="form-control" id="inputAddress"  required title="Please Enter Your Address" placeholder="Apartment, studio, or floor">
                         <span id='Logo' style="display:none"></span>
       
                       </div>
@@ -81,8 +81,8 @@
                           <label for="inputState">State</label>
                             <!-- selection for state  -->
                           <select  required title="Please Select Your State" id="inputState" class="form-control" disabled>
-                            <span class="error message">Field is required</span>
-                            <option selected>Choose...</option>
+                            <span class="error message"></span>
+                            <option selected></option>
                             <option value="AL">Alabama</option>
               <option value="AK">Alaska</option>
               <option value="AZ">Arizona</option>
@@ -139,12 +139,12 @@
                         <div class="form-group col-md-2">
                             <!-- restric int lenths to only 6 numbers-->
                           <label for="inputZip">Zip</label>
-                          <input   required title="Please Enter Your Zip Code"maxlength="6" type="text" class="form-control" id="inputZip">
+                          <input   required title="Please Enter Your Zip Code" maxlength="6" type="text" class="form-control" id="inputZip">
                           <span id='logo'></span>
       
                         </div>
                         
-                      </div>
+                     
                         </div>
                       </div>
 
@@ -153,7 +153,7 @@
                       <div id="payment"> Payment Methods
                          <div class="form-group col-md-2">
                               <label for="nameCC">Name</label>
-                              <input type="FirstName" class="form-control"  id="nameCC" placeholder="Name on Credit Card" required title="Please Enter Your Name On Credit Card">
+                              <input type="text" class="form-control"  id="nameCC" placeholder="Name on Credit Card" required title="Please Enter Your Name On Credit Card">
                               <span id="name" ></span>
       
                               <div class="form-group col-md-14" id="Creditcard">
@@ -168,10 +168,10 @@
                                       <span id="CVV"></span>
       
                                       <div class="form-group col-md-14">
-                                          <label for="date">Exp Date</label> 
+                                          <label for="expdate">Exp Date</label> 
                                           <!-- <input type="text" name="expDate" id="expDate" placeholder="yyyy-mm-dd" required="" class="hasDatepicker focus-visible" data-focus-visble-added> -->
                                            <input type="text" class="form-control"  id="expdate" placeholder="mm-dd-yy" required title="Please Enter Exp Date">
-                                          <span id="Logo" style="display:none;"></span>
+                                          <span id="date" style="display:none;"></span>
               
                                          
                                           <div class="form-group col-md-14"></div>
@@ -213,7 +213,7 @@
                           <h5 class="text-uppercase">Nu</h5>
                   
                           <p>
-                            Here is the Link to the <a id="link2" target="_blank" id='link1' href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fvanpham2000.github.io%2Findia%2Findex.html""> Syntax</a> 
+                            Here is the Link to the <a id="link2" target="_blank"  href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fvanpham2000.github.io%2Findia%2Findex.html"> Syntax</a> 
                           </p>
                         </div>
                         <!--Grid column-->
