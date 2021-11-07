@@ -1,0 +1,81 @@
+.jumbotron{
+    text-align: center;
+    background-color:#800020;
+    padding: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+#payment{
+
+
+    text-align: center;
+    border-style: solid;
+    border-color:black;
+    background-color: blanchedalmond;
+     font-weight: bold;
+
+}
+
+#btn{
+
+display: inline block;
+}
+
+#cancel{
+display: inline block;
+text-align: center;
+background-color: #f44336; /* Red */
+/* width: 100px */
+
+}
+
+#errmsg
+{
+color: red;
+}
+
+#logo{
+  color: red;
+  font-weight:bold;
+}
+#text
+{
+color: red;
+  font-weight:bold;
+}
+#Lname
+{
+color: red;
+  font-weight:bold;
+}
+#city
+{
+color: red;
+  font-weight:bold;
+}
+#name
+{
+color: red;
+  font-weight:bold;
+}
+
+#CVV
+{
+color: red;
+  font-weight:bold;
+}
+
+#link1
+{
+text-decoration: none;
+
+font-weight: bold;
+}
+
+#link2
+{
+text-decoration: none;
+
+font-weight: bold;
+}
