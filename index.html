@@ -10,11 +10,7 @@
     <title>NetflixSubScriptionPage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS only -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
-
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-
-
+   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" />
 
@@ -32,8 +28,6 @@
 <!-- visible portion of the page -->
 
 <body>
-
-
 
       
 
@@ -81,7 +75,7 @@
                           <label for="inputState">State</label>
                             <!-- selection for state  -->
                           <select  required title="Please Select Your State" id="inputState" class="form-control" disabled>
-                            <span class="error message"></span>
+    
                             <option selected></option>
                             <option value="AL">Alabama</option>
               <option value="AK">Alaska</option>
@@ -146,7 +140,7 @@
                         
                      
                         </div>
-                      </div>
+                     
 
         
       
@@ -157,7 +151,7 @@
                               <span id="name" ></span>
       
                               <div class="form-group col-md-14" id="Creditcard">
-                                  <label for="ccNumbers">Credit Card Number</label>
+                                  <label for="txtCardNumber">Credit Card Number</label>
                                   <input  class="form-control" type="tel"  id="txtCardNumber"  maxlength="19"   name="card-number" placeholder="xxxx-xxxx-xxxx-xxxx" required title="Please Enter Your Credit Card Numbers">
                                   <span id="errmsg" ></span>
                                  
@@ -169,7 +163,6 @@
       
                                       <div class="form-group col-md-14">
                                           <label for="expdate">Exp Date</label> 
-                                          <!-- <input type="text" name="expDate" id="expDate" placeholder="yyyy-mm-dd" required="" class="hasDatepicker focus-visible" data-focus-visble-added> -->
                                            <input type="text" class="form-control"  id="expdate" placeholder="mm-dd-yy" required title="Please Enter Exp Date">
                                           <span id="date" style="display:none;"></span>
               
@@ -183,14 +176,14 @@
                                             <button id="cancel" type="submit" class="btn btn-success">cancel</button>
       
       
-                                            
-                    </div> 
-                  </div>
+                    
+                    </form>
+                                         
+                  </div> 
                 </div>
               </div>
             </div>
-                    
-                    </form>
+
                   </div>
                   
                   <footer class="bg-light text-center text-lg-start">
@@ -243,7 +236,7 @@
 <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script> -->
+
 <script> 
 config = {
 altInput:true,

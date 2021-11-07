@@ -87,7 +87,7 @@ $("#inputFname").on("change", function (e) {
 
 //  validation that all required field need to have an input
 window.onload = function () {
-  var form = document.getElementById('btn');
+  var form = document.getElementById('meform');
   form.button.onclick = function (){
     for(var i=0; i < form.elements.length; i++){
       if(form.elements[i].value === '' && form.elements[i].hasAttribute('required')){

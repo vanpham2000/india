@@ -25,7 +25,7 @@ display: inline block;
 #cancel{
 display: inline block;
 text-align: center;
-
+background-color: #f44336; /* Red */
 /* width: 100px */
 
 }
